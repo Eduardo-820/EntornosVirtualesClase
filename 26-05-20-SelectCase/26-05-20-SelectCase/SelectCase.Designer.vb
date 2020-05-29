@@ -30,14 +30,14 @@ Partial Class FormCase
         '
         Me.cmbLista.FormattingEnabled = True
         Me.cmbLista.Items.AddRange(New Object() {"primero", "segundo", "tercero", "cuarto"})
-        Me.cmbLista.Location = New System.Drawing.Point(20, 53)
+        Me.cmbLista.Location = New System.Drawing.Point(64, 39)
         Me.cmbLista.Name = "cmbLista"
         Me.cmbLista.Size = New System.Drawing.Size(121, 21)
         Me.cmbLista.TabIndex = 3
         '
         'btnMostrar
         '
-        Me.btnMostrar.Location = New System.Drawing.Point(45, 91)
+        Me.btnMostrar.Location = New System.Drawing.Point(89, 77)
         Me.btnMostrar.Name = "btnMostrar"
         Me.btnMostrar.Size = New System.Drawing.Size(75, 23)
         Me.btnMostrar.TabIndex = 2
@@ -48,7 +48,7 @@ Partial Class FormCase
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(165, 133)
+        Me.ClientSize = New System.Drawing.Size(259, 133)
         Me.Controls.Add(Me.cmbLista)
         Me.Controls.Add(Me.btnMostrar)
         Me.Name = "FormCase"
