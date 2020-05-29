@@ -1,4 +1,4 @@
-﻿Public Class calculadora1
+﻿Public Class calculadoraBasica
     Private Sub btnCalcular_Click(sender As Object, e As EventArgs) Handles btnCalcular.Click
         Dim valor1, valor2 As Integer
         Dim suma As Integer
