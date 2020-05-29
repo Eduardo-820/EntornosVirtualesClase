@@ -11,7 +11,7 @@
         ElseIf txtValor2.Text = "" Then
             MsgBox("Escriba un numero en la casilla de valor 2", vbInformation)
 
-        ElseIf Not IsNumeric(txtValor1.Text) Or IsNumeric(txtValor1.Text) Then
+        ElseIf Not IsNumeric(txtValor1.Text) Or Not IsNumeric(txtValor2.Text) Then
             MsgBox("Valor 1 y Valor 2 deben ser valores numericos", vbInformation)
 
         Else
@@ -43,4 +43,5 @@
         txtDividir.Clear()
 
     End Sub
+
 End Class
